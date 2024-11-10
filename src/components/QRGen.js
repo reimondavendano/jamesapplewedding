@@ -1,11 +1,11 @@
 import React from 'react';
 import { QRCodeCanvas }  from 'qrcode.react';
 
-function QRGen({ mapsUrl }) {
+function QRGen({ mapsUrl, mapsName }) {
   return (
     <div style={styles.qrContainer}>
       <div style={styles.label}>
-        <h1>Join Us!</h1>
+        <h1>{mapsName}</h1>
         <p style={styles.subtext}>Scan to view location</p>
       </div>
       <div style={styles.qrWrapper}>
@@ -21,7 +21,7 @@ function QRGen({ mapsUrl }) {
   );
 }
 
-// Rustic theme styles
+// QR Style
 const styles = {
   qrContainer: {
     display: 'flex',
