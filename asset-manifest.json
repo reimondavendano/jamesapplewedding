@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jamesapplewedding/static/css/main.77273b60.css",
-    "main.js": "/jamesapplewedding/static/js/main.d2a9bc79.js",
+    "main.css": "/jamesapplewedding/static/css/main.ca40fd33.css",
+    "main.js": "/jamesapplewedding/static/js/main.8d016808.js",
     "static/js/453.de9d5605.chunk.js": "/jamesapplewedding/static/js/453.de9d5605.chunk.js",
     "static/media/palagi.mp3": "/jamesapplewedding/static/media/palagi.cdcc958eebf3890e80a6.mp3",
     "static/media/6.jpeg": "/jamesapplewedding/static/media/6.9e58dc04ef3f2ecb8dfe.jpeg",
@@ -45,12 +45,12 @@
     "static/media/fa-v4compatibility.woff2": "/jamesapplewedding/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "static/media/logo.svg": "/jamesapplewedding/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/jamesapplewedding/index.html",
-    "main.77273b60.css.map": "/jamesapplewedding/static/css/main.77273b60.css.map",
-    "main.d2a9bc79.js.map": "/jamesapplewedding/static/js/main.d2a9bc79.js.map",
+    "main.ca40fd33.css.map": "/jamesapplewedding/static/css/main.ca40fd33.css.map",
+    "main.8d016808.js.map": "/jamesapplewedding/static/js/main.8d016808.js.map",
     "453.de9d5605.chunk.js.map": "/jamesapplewedding/static/js/453.de9d5605.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77273b60.css",
-    "static/js/main.d2a9bc79.js"
+    "static/css/main.ca40fd33.css",
+    "static/js/main.8d016808.js"
   ]
 }
