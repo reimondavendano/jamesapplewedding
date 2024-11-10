@@ -83,7 +83,7 @@ const timelineData = [
 const WeddingEvent = () => {
   return (
     <div id = "wedding-event">
-        <Container fluid>
+        <Container fluid className= "bg-wed-event">
             <Row>
                 <Col md={12}>
                     <div className= "title-header-template">
@@ -92,7 +92,7 @@ const WeddingEvent = () => {
                 </Col>
             </Row>
         </Container>
-        <Container fluid className="wedding-info-container bg-stardust-white">
+        <Container fluid className="wedding-info-container bg-wed-event">
             <Row>
                 <Col md={1}></Col>
                 <Col md={4}>
@@ -100,12 +100,12 @@ const WeddingEvent = () => {
                 <div className="timeline">
                     {timelineData.map((item, index) => (
                         <div className={`timeline-item ${index % 2 === 0 ? 'right' : 'left'}`} key={index}>
-                        <div className="content">
-                            <div className="icon">
-                            <img className = "img-responsive img-size-sm" src={item.icon} />
+                            <div className="content">
+                                <div className="icon">
+                                <img className = "img-responsive img-size-sm" src={item.icon} />
+                                </div>
+                                <div className="content-sett">{item.time}</div>
                             </div>
-                            <div className="content-sett">{item.time}</div>
-                        </div>
                         </div>
                     ))}
                     </div>

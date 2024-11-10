@@ -18,7 +18,7 @@ const WeddingBanner = () => {
       <div className="details">
             <p className="text-align-center font-uppercase font-quick-sans font-size-32"> A <span className="font-weight-bold">Decade</span> of Love, A <span className="font-weight-bold">Lifetime</span> to Go</p>
       </div>
-      <AudioPlayer src={song} />
+      {/* <AudioPlayer src={song} /> */}
       <div className="heart-container">
         <img 
           src = {logobox}
@@ -94,9 +94,11 @@ const WeddingBanner = () => {
       </Container>
       <Container fluid>
         <Row>
-            <Col md={12}>
+            <Col md={4}></Col>;
+            <Col md={4}>
                <RsvpButton/>
             </Col>
+            <Col md={4}></Col>;
         </Row>
       </Container>
     </div>

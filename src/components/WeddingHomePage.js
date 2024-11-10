@@ -33,8 +33,8 @@ const WeddingHomePage = () => {
             <Col md={4}>
               <WeddingBanner/>
             </Col>
-            <Col md={8}>
-              <BackgroundCarousel images={images} interval={3000}/>
+            <Col md={12}>
+              <BackgroundCarousel images={images} interval={5000}/>
             </Col>
           </Row>
       </Container>

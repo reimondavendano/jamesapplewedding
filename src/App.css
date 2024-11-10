@@ -7,8 +7,8 @@ body {
   color: #CC5315; /* Dark rustic brown */
   /* background-color: #f2e1d2 !important;
  background-image: url("https://www.transparenttextures.com/patterns/fake-brick.png"); */
- background-color: #fefffc !important;
-  background-image: url("./assets/images/stardust.png") !important;
+ background-color: #fff !important;
+  /* background-image: url("./assets/images/stardust.png") !important; */
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
@@ -73,6 +73,11 @@ a {
   margin-top: -22px !important;
 }
 
+.font-size-60{
+  font-size: 60px !important;
+}
+
+
 
 .font-uppercase {
   text-transform: uppercase;
@@ -125,14 +130,21 @@ a {
   margin-bottom: 95px;
 }
 
-.border-top-bottom{
+.border-top-bottom {
   font-family: "Quicksand", Arial, serif;
   font-size: 25px;
   display: inline-block;
   color: #000;
-  border-bottom: 2px solid #000;
-  border-top: 2px solid #000;
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
   width: 103px;
+  margin-top: 7px;
+}
+
+.width-bottom-head {
+  width: 38%;
+  margin-bottom: -30px;
+  margin-left: 596px !important
 }
 
 /* Header styling */
@@ -152,8 +164,20 @@ a {
 
 /* Rustic Navbar Styles */
 .rustic-navbar {
-  font-family: 'Quicksand', serif;
-  font-size: 23px;
+  font-family: 'Sacramento', serif;
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute !important;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding: 40px 0;
+  z-index: 1;
+}
+
+.above-layer{
+  z-index:10;
 }
 
 .navbar-brand-custom {
@@ -176,7 +200,7 @@ a {
 }
 
 .nav-link {
-  color: #773429 !important; /* Beige text */
+  color: #f1ece8 !important; /* Beige text */
   font-size: 18px;
   transition: color 0.3s;
   
@@ -227,7 +251,6 @@ a {
 }
 
 .overlay {
-    z-index: 0;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -238,15 +261,13 @@ a {
 
 .head {
   text-align: center;
-  position: relative;
   margin-top: 40px;
 }
 
 
+
 .subhead {
   margin-top: 30px;
-  border-bottom: 4px solid #773429;
-  border-top: 4px solid #773429;
   padding: 12px 0;
   font-size: 16px;
   letter-spacing: 1px;
@@ -255,7 +276,6 @@ a {
 
 .title-head {
   margin-top: 30px;
-  border-bottom: 4px solid #773429;
   padding: 12px 0;
   font-size: 16px;
   letter-spacing: 1px;
@@ -270,6 +290,10 @@ a {
   margin-bottom: 20px;
   color: #CC5315; /* Dark rustic brown for header */
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Soft shadow to give depth */
+}
+
+.font-sacramento-only {
+  font-family: "Sacramento", Arial, serif;
 }
 
 .font-size-40 {
@@ -297,12 +321,26 @@ a {
     line-height: 130px;
     color: #CC5315;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    border-bottom: 4px solid #773429;
-    border-top: 4px solid #773429;
     width: 100%;
     text-align: center;
     margin-top: 1px;
 }
+
+.bg-cover-faq {
+  background-color: #F5EAD6;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-wed-event {
+  background-color: #F5EAD6;
+  width: 100%;
+  height: 100%;
+}
+
+
 
 
 .column-box-1 {
@@ -320,12 +358,13 @@ a {
 
 .bg-stardust-white {
   background-color: #fefffc !important;
-  background-image: url("./assets/images/stardust.png") !important;
+  /* background-image: url("./assets/images/stardust.png") !important; */
+  background-color: #fff;
 }
 
 .border-rustic {
-  border-left: 4px solid #773429;
-  border-right: 4px solid #773429
+  /* border-left: 4px solid #773429;
+  border-right: 4px solid #773429 */
 }
 
 
@@ -391,30 +430,30 @@ a {
 
 .countdown-segment {
     display: inline-block;
-    width: 70px;
-    height: 70px;
-    background: #CC5315;
+    width: 100px;
+    height: 100px;
+    background: #F5EAD6 ;
     margin: 0 4px;
     border-radius: 50%;
     position: relative;
     animation: pulse 1s ease infinite;
-    color: #f1ece8;
+    color: #CC5315;
     font-family: 'Quicksand', Arial, sans-serif;
 }
 
 .countdown-value {
-  font-size: 25px;
+  font-size: 33px;
   position: absolute;
-  top: 7px;
-  left: 19px;
+  top: 19px;
+  left: 31px
 }
 
 .countdown-label {
-  display: block;
-  font-size: 12px;
+  font-size: 16px;
   position: absolute;
-  top: 39px;
-  left: 14px
+  top: 57px;
+  left: 24px;
+  color: #000
 }
 
 .countdown-card{
@@ -696,13 +735,12 @@ a {
 }
 
 .head-banner-month {
-  margin-top: -36px;
   font-weight: bold;
   font-size: 22px;
   font-weight: bold;
   text-align: center;
   margin-left: 10px;
-  color:#773429 !important;
+  color:#F5EAD6 !important;
 }
 
 .head-banner-date {
@@ -710,7 +748,7 @@ a {
   font-size: 70px;
   margin-left: 20px;
   margin-top: -49px;
-  color:#773429 !important;
+  color:#F5EAD6 !important;
 }
 
 .head-banner-year {
@@ -720,7 +758,7 @@ a {
   font-weight: bold;
   text-align: center;
   margin-left: 20px;
-  color:#773429 !important;
+  color:#F5EAD6 !important;
 }
 
 .janda-font{
@@ -837,6 +875,68 @@ a {
     display: none !important;
   }
 
+
+  .janda-font{
+    font-size: 30px !important;
+  }
+
+  .font-size-60{
+    font-size:30px !important;
+  }
+
+  .countdown-segment{
+      height: 60px !important;
+      width: 60px !important;
+      
+  }
+  
+  .countdown-value{
+    font-size: 21px !important ;
+    position: absolute !important;
+    top: 9px !important;
+    left: 19px !important;
+  }
+
+  .countdown-label {
+    font-size: 9px !important;
+    position: absolute !important;
+    top: 33px !important;
+    left: 14px !important;
+    color: #000 !important
+  }
+
+  .border-top-bottom {
+    width: 100px;
+    font-size: 14px
+  }
+
+  .width-bottom-head{
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important
+  }
+
+  .head-banner-month {
+    margin-top: -47px !important;
+    font-size: 16px !important;
+    margin-left: 10px !important;
+  }
+	
+  .head-banner-date {
+      font-size: 50px !important;
+      margin-left: 20px !important;
+      margin-top: -40px !important;
+  }
+
+  .head-banner-year {
+      margin-top: -32px !important;
+      font-size: 14px !important;
+      margin-left: 20px !important;
+  }
+
+  .parallax-header{
+    height: 588px !important;
+  }
 }
 
 
@@ -1148,7 +1248,6 @@ a {
   display: block;
   color: #CC5315;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #773429;
   width: 100%;
   text-align: center;
   margin-top: 0px;
@@ -1247,3 +1346,25 @@ a {
     height: 60px;
   }
 }
+
+
+
+
+/* Wedding new Header*/
+
+
+.parallax-header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 920px; /* Adjust height to fit design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  transition: background-image 0.5s ease-in-out; /* Smooth transition for carousel */
+  padding-top: 60px; /* Offset for fixed nav */
+  text-align: center;
+  
+}
+

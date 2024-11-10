@@ -52,7 +52,7 @@ const faqData = [
 function FAQ() {
     return (
         <div id = "faq">
-             <Container fluid>
+             <Container fluid className="bg-cover-faq">
                 <Row>
                     <Col md={12}>
                         <div className= "title-header-template">
@@ -61,7 +61,7 @@ function FAQ() {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="bg-stardust-white">
+            <Container fluid className="bg-cover-faq">
                 <Row className="justify-content-center">
                     <Col md={2}></Col>
                      <Col md={8} className="text-center">

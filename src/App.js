@@ -9,14 +9,19 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import RSVP from './components/RSVP';
 import Nuptials from './components/Nuptials';
+import HeaderNav from './components/HeaderNav';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <WeddingHeader/>
-      <WeddingHomePage/>
+      {/* <WeddingHeader/> */}
+      {/* <WeddingHomePage/> */}
+      <HeaderNav/>
       <WeddingTimeline/>
-      <Nuptials/>
+      {/* <Nuptials/> */}
       <WeddingEvent/>
       <WeddingInfo/>
       <FAQ/>

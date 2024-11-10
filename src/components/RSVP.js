@@ -17,7 +17,7 @@ function RSVP() {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="bg-stardust-white">
+            <Container fluid className="bg-stardust-white bg-rsvp">
                 <Row className="justify-content-center margin-top-50">
                     <Col md={1}></Col>
                     <Col md={4}>
@@ -38,8 +38,8 @@ function RSVP() {
                         </div>
                     </Col>
                     <Col md={7} className="position-relative">
-                        <img src={rsvpImg} alt="Responsive Image" className="img-fluid rsv-img" />
-                        <div className="overlay"></div>
+                        {/* <img src={rsvpImg} alt="Responsive Image" className="img-fluid rsv-img" />
+                        <div className="overlay"></div> */}
                     </Col>
                 </Row>
             </Container>

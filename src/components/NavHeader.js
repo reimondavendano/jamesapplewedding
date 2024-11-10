@@ -10,7 +10,7 @@ const NavHeader = () => {
             <Nav className="nav-center">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#story">Our Story</Nav.Link>
-              <Nav.Link href="#nuptials">Nuptials</Nav.Link>
+              {/* <Nav.Link href="#nuptials">Nuptials</Nav.Link> */}
               <Nav.Link href="#wedding-event">Wedding Event</Nav.Link>
               <Nav.Link href="#wedding-info">Wedding Information</Nav.Link>
               <Nav.Link href="#faq">FAQ</Nav.Link>
