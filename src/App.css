@@ -1,0 +1,1247 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700');
+
+body {
+  font-family: 'Quicksand', serif;
+  font-size: 14px;
+  color: #CC5315; /* Dark rustic brown */
+  background-color: #f2e1d2 !important;
+ background-image: url("https://www.transparenttextures.com/patterns/fake-brick.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+h1, h2, h3 {
+  font-family: "Quicksand", Arial, serif;
+  color: #CC5315; /* Dark rustic brown for header */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Soft shadow to give depth */
+}
+
+p {
+  font-family: "Quicksand", Arial, serif;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #CC5315; /* Darker text color for easy readability */
+}
+
+a {
+  text-decoration: none;
+}
+
+.font-family-quicksand{
+  font-family: "Quicksand", Arial, serif;
+}
+
+.text-align-center {
+  text-align: center;
+}
+.text-align-left{
+  text-align: left;
+}
+
+.text-align-justify{
+  text-align: justify;
+}
+
+.font-style-italic {
+  font-style : italic !important;
+}
+
+.font-weight-bold {
+  font-weight: bolder !important;
+}
+
+.font-size-25{
+  font-size: 25px !important;
+}
+
+.font-size-32{
+  font-size: 32px !important;
+}
+
+.font-size-18{
+  font-size: 18px !important;
+}
+
+.margin-top-30 {
+  margin-top: 30px !important;
+}
+
+.margin-top-neg-22 {
+  margin-top: -22px !important;
+}
+
+
+.font-uppercase {
+  text-transform: uppercase;
+}
+
+.letter-spacing {
+  letter-spacing: 4px;
+}
+
+.font-quick-sans {
+  font-family: "Quicksand", Arial, serif;
+  color: #CC5315; /* Dark rustic brown for header */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Soft shadow to give depth */
+}
+
+.primary-rustic-color {
+  color: #CC5315 !important;
+}
+
+.secondary-rustic-color {
+  color: #f1ece8 !important;
+}
+
+.third-rustic-color {
+  color: #773429 !important;
+}
+
+.black-color {
+  color:#000 !important;
+}
+
+.white-color {
+  color: #fff !important;
+}
+
+
+.margin-top-50{
+  margin-top: 50px;
+}
+
+.margin-top-20{
+  margin-top: 20px;
+}
+
+.margin-top-neg-20{
+  margin-top: -20px;
+}
+
+.margin-bottom-95 {
+  margin-bottom: 95px;
+}
+
+.border-top-bottom{
+  font-family: "Quicksand", Arial, serif;
+  font-size: 25px;
+  display: inline-block;
+  color: #000;
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+  width: 103px;
+}
+
+/* Header styling */
+.header {
+  font-family: "Sacramento", Arial, serif;
+  text-align: center;
+  font-weight: 900;
+  font-size: 80px;
+  font-style: italic;
+  display: inline-block;
+  line-height: 72px;
+  margin-bottom: 20px;
+  color: #CC5315; /* Dark rustic brown for header */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Soft shadow to give depth */
+}
+
+
+/* Rustic Navbar Styles */
+.rustic-navbar {
+  font-family: 'Quicksand', serif;
+  font-size: 23px;
+}
+
+.navbar-brand-custom {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F5F5DC; /* Beige color */
+}
+
+.navbar-brand-custom:hover {
+  color: #D7CCC8; /* Lighter beige on hover */
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  border-color: #D7CCC8; /* Beige color for toggle button border */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='%23D7CCC8' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+  color: #773429 !important; /* Beige text */
+  font-size: 18px;
+  transition: color 0.3s;
+  
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #CC5315 !important; /* Lighter brown on hover */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap:40px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .navbar-brand-custom {
+    font-size: 20px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 480px) {
+    .column-box-1 {
+      margin-left: 0px !important;
+      width: 100% !important;
+    }
+
+    .banner {
+      margin-left: 0px !important;
+    }
+}
+
+.banner{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    background-position: 0px 0px;
+    margin-left:7px;
+}
+
+.overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.head {
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+
+.subhead {
+  margin-top: 30px;
+  border-bottom: 4px solid #773429;
+  border-top: 4px solid #773429;
+  padding: 12px 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #6b4f31;
+}
+
+.title-head {
+  margin-top: 30px;
+  border-bottom: 4px solid #773429;
+  padding: 12px 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #6b4f31;
+}
+
+.font-sacramento {
+  font-family: "Sacramento", Arial, serif;
+  font-style: italic;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 20px;
+  color: #CC5315; /* Dark rustic brown for header */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Soft shadow to give depth */
+}
+
+.font-size-40 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.font-size-20 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.content-sett{
+  font-family: "Quicksand", Arial, serif;
+  color: #CC5315; /* Dark rustic brown for header */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Soft shadow to give depth */
+}
+
+.title-header-template {
+    font-family: "Sacramento", Arial, serif;
+    font-weight: 900;
+    font-size: 80px;
+    font-style: italic;
+    display: inline-block;
+    line-height: 130px;
+    color: #CC5315;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #773429;
+    border-top: 4px solid #773429;
+    width: 100%;
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.column-box-1 {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 2% 2% 2% 2%;
+  vertical-align: top;
+  margin-bottom: 50px;
+  transition: all .7s;
+  border-radius: 5px;
+  margin-left: -12px;
+  width: 107%;
+  height:100%;
+}
+
+.bg-stardust-white {
+  background-color: #fefffc !important;
+  background-image: url("./assets/images/stardust.png") !important;
+}
+
+.border-rustic {
+  border-left: 4px solid #773429;
+  border-right: 4px solid #773429
+}
+
+
+
+/* .carousel-container styles */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 700px;  /* Specific height for the carousel */
+  margin: auto;
+  overflow: hidden; /* Hide anything outside the container */
+  display: flex;
+  justify-content: center;
+}
+
+/* .carousel-slide img styling */
+.carousel-slide img {
+  width: auto;         /* Maintain image's width in proportion */
+  height: 100%;        /* Ensure the image's height is fully stretched */
+  object-fit: cover;   /* Make the image cover the container and crop if necessary */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .carousel-container {
+    max-width: 100%; /* Allow full width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-slide img {
+    object-fit: contain; /* Ensure the image fits smaller screens */
+  }
+}
+
+/* Audio player*/
+.audio-player{
+  z-index: 999999;
+  
+}
+
+.audio-btn{
+  border: none !important;
+  background-color: #CC5315 !important;
+}
+
+
+
+/* CountdownTimer.css */
+
+.custom-card-outline {
+  border: 2px solid #CC5315 !important;
+  border-radius: 8px;
+  border-radius: 8px !important;
+  width: 358px;
+  margin-top: -35px;
+}
+
+.countdown {
+  margin-bottom: 2em;
+  margin-top: 10px;
+}
+
+.countdown-segment {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #CC5315;
+    margin: 0 4px;
+    border-radius: 50%;
+    position: relative;
+    animation: pulse 1s ease infinite;
+    color: #f1ece8;
+    font-family: 'Quicksand', Arial, sans-serif;
+}
+
+.countdown-value {
+  font-size: 25px;
+  position: absolute;
+  top: 7px;
+  left: 19px;
+}
+
+.countdown-label {
+  display: block;
+  font-size: 12px;
+  position: absolute;
+  top: 39px;
+  left: 14px
+}
+
+.countdown-card{
+  margin-bottom:-23px;
+  
+}
+
+.countdown-body{
+  margin-bottom: -25px;
+}
+/* FlipCard.css */
+
+/* Container for the flip component */
+.flip-container {
+  perspective: 1000px;
+  position: relative;
+}
+
+.flipper {
+  position: relative;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.flipper.flipped {
+  transform: rotateY(180deg);
+}
+
+/* Front and back styling */
+.front, .back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', serif;
+  color: #3e2e1e;
+  text-align: center;
+}
+
+/* Front-specific styles */
+.front {
+  z-index: 2;
+}
+
+/* Back-specific styles */
+.back {
+  transform: rotateY(180deg);
+}
+
+/* Flip Button Styling */
+.flip-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #b5935a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.flip-button:hover {
+  background-color: #8e6f47;
+}
+
+/* Rustic background and font styles */
+.flip-container, .front, .back {
+  color: #3e2e1e;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .front h1, .back h1 {
+    font-size: 1.5em;
+  }
+  .front p, .back p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .front h1, .back h1 {
+    font-size: 1.2em;
+  }
+  .front p, .back p {
+    font-size: 0.9em;
+  }
+}
+
+/* Second Section CSS */
+
+/* Timeline-Chrono */
+
+.hxLLRt {
+  display: none !important;
+
+}
+
+.jAaHbQ{
+  display: none !important;
+}
+
+.dJPOyH{
+  color:#CC5315 !important;
+}
+
+.timeline-container {
+  /* background-color: #f4f0ec; Soft paper-like background  */
+  padding: 20px;
+  font-family: 'Quicksand', serif; /* Classic serif font */
+  color:#CC5315 !important;
+}
+
+.chrono-icons {
+  color: #A47C48; /* Darker rustic color for icons */
+}
+
+.chrono-timeline {
+  margin-top: 20px;
+}
+
+.chrono-control-buttons {
+  display: none !important;
+}
+
+.chrono-card {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  border: 1px solid #D1BCA3; /* Light brown border for framed look */
+}
+
+.chrono-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.2em;
+  color: #4B3E2A; /* Dark brown text */
+}
+
+.chrono-media img {
+  border-radius: 10px; /* Rounded corners for images */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add a rustic shadow to images */
+}
+
+.rc-card-title{
+  color:#CC5315 !important;
+  font-size: 37px !important;
+}
+
+.timeline-item-title.active{
+  color: #CC5315 !important;
+  background: #F5EAD6 !important;
+}
+
+.timeline-item-title {
+  font-size: 40px !important;
+  color:#CC5315 !important;
+}
+
+.rc-card-subtitle {
+  font-size: 25px !important;
+}
+
+.card-description > p{
+  font-size: 15px !important;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.timeline-card-content{
+  max-width: 360px !important;
+}
+
+.margin-top-144 {
+  margin-top:144px;
+}
+
+.margin-top-300 {
+  margin-top:300px;
+}
+
+
+.custom-image {
+  top: 0;
+  left: 0;
+  width: 100%; /* Fits the image to the column width */
+  height: 100%; /* Optional: stretches the image to fit the column height */
+  object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+.j-img {
+    width: 47%;
+    left: 141px;
+    top: 119px;
+}
+
+.a-img {
+  width: 47%;
+  left: 123px;
+  top: 79px
+}
+
+/* Style for the speech bubble */
+.speech-bubble {
+  position: absolute;
+  background-color: #F5EAD6; /* Rusty for the speech bubble */
+  color: #CC5315 !important;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: 'Quicksand', serif;
+  width: 70%; /* Adjust width */
+  text-align: center;
+
+  /* Tail of the speech bubble */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+.j-speech {
+  top: 274px; /* Adjust the position vertically */
+  left: 58px; /* Adjust the position horizontally */
+}
+
+.a-speech {
+  top: 373px; /* Adjust the position vertically */
+  left: 58px; /* Adjust the position horizontally */
+}
+
+/* Speech bubble tail (triangle) */
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Adjust tail's position */
+  left: 50%; /* Center the tail */
+  transform: translateX(-50%); /* Center tail */
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #F5EAD6; /* Tail color */
+}
+
+
+
+@media only all and (max-width: 1200px) {
+  .column {
+    width: 31%;
+  }
+}
+
+@media only all and (max-width: 900px) {
+  .column {
+    width: 47%;
+  }
+}
+
+@media only all and (max-width: 600px) {
+
+
+
+}
+
+/* Background and layout for the banner */
+
+
+.wedding-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Quicksand', serif;
+}
+
+.rsvp-link {
+  text-decoration: none;
+}
+
+
+
+.mdy-banner{
+  color:#773429 !important;
+}
+
+.head-banner-month {
+  margin-top: -36px;
+  font-weight: bold;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10px;
+  color:#773429 !important;
+}
+
+.head-banner-date {
+  font-weight: bold;
+  font-size: 70px;
+  margin-left: 20px;
+  margin-top: -49px;
+  color:#773429 !important;
+}
+
+.head-banner-year {
+  margin-top: -42px;
+  font-weight: bold;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 20px;
+  color:#773429 !important;
+}
+
+.janda-font{
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+.chapel-img-pos{
+  margin-top: -83px;
+}
+
+.reception-img-pos{
+  width: 50%;
+}
+
+/* Heart container with names centered */
+.heart-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Heart image styling */
+.heart-image {
+  width: 100%;
+  max-width: 580px;
+  height: auto;
+}
+
+/* Names centered in the heart */
+.names {
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  color: #5a4632;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  font-family: 'Sacramento', serif;
+}
+
+/* Details section styling */
+.details {
+  font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .wedding-banner {
+    padding: 20px;
+  }
+
+  .column-box-1 {
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+
+  .banner {
+    margin-left: 0px !important;
+    height: 100vh !important;
+  }
+
+  .names {
+    font-size: 1.5em;
+  }
+
+  .details {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .heart-image {
+    max-width: 300px;
+  }
+
+  .names {
+    font-size: 1.2em;
+  }
+
+  .map-size-mb{
+    width:100% !important
+  }
+
+  .vertical-line-container::before {
+    display: none;
+  }
+
+  .img-4-template{
+    width: 30% !important;
+    left: 255px !important;
+    top: -345px !important;
+  }
+
+  .img-3-template{
+    width: 36% !important;
+    left: -25px !important;
+    top: -352px !important;
+  }
+  
+  .chapel-container{
+    margin-top: 48px;
+  }
+
+  .mdy-banner{
+      margin-top: 48px;
+  }
+
+  .header{
+    margin-top: 60px;
+  }
+
+  .bg-sides{
+    display: none !important;
+  }
+
+}
+
+
+/* Template for Event Info */
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+/* Central vertical line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #CC5315 ;
+  transform: translateX(-50%);
+  z-index: 999999;
+}
+
+/* Timeline items */
+.timeline-item {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Alternating left and right layout */
+.timeline-item.left {
+  justify-content: flex-end;
+  text-align: right;
+  /* padding-right: 150px;  */
+  
+}
+
+.timeline-item.right {
+  justify-content: flex-start;
+  text-align: left;
+  /* padding-left: 150px;  */
+}
+
+/* Horizontal line from icon to central vertical line */
+.timeline-item.left::before,
+.timeline-item.right::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 60px; /* Length of the line connecting to the central line */
+  height: 1px;
+  background-color: #CC5315 ;
+}
+
+.timeline-item.left::before {
+  right: 94px; /* Position line to connect to central line */
+}
+
+.timeline-item.right::before {
+  left: 94px; /* Position line to connect to central line */
+}
+
+/* Content box (icon + title) */
+.content {
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+.icon {
+  font-size: 2em;
+  color: #4a90e2;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 1em;
+}
+
+.img-size-sm {
+  width: 100%;
+  height: 70px;
+  object-fit: cover;
+}
+
+/* Optional: Adjust speech bubble size for small screens */
+@media (max-width: 576px) {
+  .speech-bubble {
+    font-size: 1rem; /* Smaller font size on mobile */
+    width: 90%; /* Make the bubble a bit wider */
+  }
+}
+
+.wed-details-timeline {
+  margin-top: 130px;
+  background-image: url("./assets/images/9.jpeg");
+  background-size: cover;
+
+}
+
+.card-title-custom {
+  font-size: 25px !important;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff !important;
+  font-weight: bolder !important;
+}
+
+.card-text-custom{
+  font-size: 18px !important;
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+  color: #fff;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Central vertical line */
+  .timeline-item.left::before, .timeline-item.right::before {
+    width: 50px;
+  }
+
+  .timeline-item.left::before {
+    right: 84px;
+  }
+
+  .timeline-item.right::before {
+    left: 84px;
+  }
+
+}
+
+/* Wedding Info CSS */
+
+.img-1-template {
+  width: 36%;
+  left: 190px;
+  top: 93px;
+}
+
+.img-2-template {
+  width: 36%;
+  left: 276px;
+  top: 68px
+}
+
+.img-3-template {
+  width: 36%;
+  left: -316px;
+  top: 85px;
+}
+
+.img-4-template {
+  width: 36%;
+  left: -217px;
+  top: 122px;
+}
+
+.map-size-mb{
+  width: 100%;
+}
+
+/* Vertical line CSS */
+.vertical-line-container {
+  position: relative;
+  padding-left: 20px; /* Spacing between line and content */
+}
+
+.vertical-line-container::before {
+  content: '';
+  position: absolute;
+  left: 127px;
+  top: -86px;
+  bottom: 0;
+  height: 100px;
+  width: 4px;
+  background-color: #CC5315;
+  transform: translateX(-50%);
+  z-index: 999999;
+}
+
+/* CSS */
+.color-palette {
+  display: flex;
+  gap: 5px; /* Space between circles */
+  flex-wrap: wrap;
+}
+
+.color-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Makes it a circle */
+  border: 2px solid #ddd; /* Optional border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+  cursor: pointer; /* Changes cursor on hover */
+  transition: transform 0.3s ease; /* Smooth scale effect */
+}
+
+.color-circle:hover {
+  transform: scale(1.1); /* Slightly enlarges circle on hover */
+}
+
+
+/* CSS */
+.snap-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+  align-items: center;
+}
+
+.content-icon .icon-class1 {
+  color: #D1BCA3; /* Default icon color */
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.content-icon2 .icon-class2 {
+  color: #fff; /* Default icon color */
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.content-icon .icon-class1:hover {
+  color: #CC5315; /* Change color on hover */
+}
+
+
+/* FAQ */
+
+
+/* Title Styling */
+.rustic-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #CC5315; /* Accent color for title */
+  font-weight: bold;
+}
+
+.faq-accordion {
+  margin-bottom: 80px !important;
+}
+
+/* Accordion Styles for Rustic Theme */
+.faq-accordion .accordion-button {
+  color: #773429; /* Dark, rustic color */
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+  font-family: 'Quicksand', serif;
+  font-size: 20px;
+  background-color: #F5EAD6;
+}
+
+.faq-accordion > p {
+  color: #773429 !important;
+}
+
+.faq-accordion .accordion-button:not(.collapsed) {
+  background-color: rgba(204, 83, 21, 0.1); /* Light rustic tint for expanded state */
+  color: #CC5315;
+}
+
+.faq-accordion .accordion-body {
+  background-color: rgba(255, 255, 255, 0.8); /* Light, transparent background for rustic theme */
+  color: #773429 !important;
+  font-size: 1rem;
+  padding: 20px;
+  border: 1px solid #CC5315; /* Outline for body content */
+  border-radius: 6px;
+  text-align: justify !important;
+}
+
+/* Optional Button Styling for Consistent Theme */
+.rustic-button {
+  background-color: #CC5315;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.rustic-button:hover {
+  background-color: #A84412; /* Slightly darker on hover */
+}
+
+/* Footer */
+
+.footer{
+  font-family: "Sacramento", Arial, serif;
+  font-style: italic;
+  display: block;
+  color: #CC5315;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #773429;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  height: 17vh;
+}
+
+/* RSVP CSS */
+
+.rsvpContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fdf9f3;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #d1c0a7;
+  max-width: 300px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.rsvpLabel {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.rsvpHeading {
+  font-family: 'Quicksand', serif;
+  font-size: 24px;
+  color: #6b4e3d;
+  margin: 0;
+}
+
+.rsvpWrapper {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #d1c0a7;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rsvpFooterText {
+  margin-top: '15px';
+  font-family: 'Quicksand', serif;
+  font-size: 14px;
+  color: #6b4e3d;
+  text-align: center;
+}
+
+.bg-rsvp{
+  background-image: url(./assets/images/7.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Nuptial.css */
+
+/* Style for circle icons */
+.circle-icon {
+  width: 100px;  /* Adjust the size of the circle */
+  height: 100px; /* Adjust the size of the circle */
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.circle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.padding-top-bottom {
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .circle-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .circle-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
